@@ -1,0 +1,27 @@
+.top-bar-container{
+    padding: 10px 0;
+    background-color: #3e3e3e;
+}
+
+.text-color{
+    color: #FFF;
+}
+
+.text-rout div{
+    text-align: center !important;
+}
+
+.aut-links a,
+.aut-links span{
+    color: #FFF;
+}
+
+.aut-links span{
+    padding: 0 5px;
+}
+
+div.user-img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}

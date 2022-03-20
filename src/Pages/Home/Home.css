@@ -1,0 +1,85 @@
+/*start category section*/
+
+.home-left-cats a:first-of-type,
+.home-right-cats  a:first-of-type{
+    margin-bottom: 25px;
+}
+
+
+.home-left-cats a:first-of-type .cat-container,
+.home-right-cats a:last-of-type .cat-container{
+    min-height: 400px;
+}
+
+.home-left-cats  a:last-of-type .cat-container,
+.home-right-cats  a:first-of-type .cat-container{
+    min-height: 300px;
+}
+
+@media(max-width:1024px) and (min-width:992px){
+    .home section.home-cats div a .cat-container{
+        min-height: 300px;
+    }
+}
+
+@media(max-width:991px) and (min-width:768px){
+    .home section.home-cats div a .cat-container{
+        min-height: 250px;
+    }
+}
+
+@media(max-width:767px){
+    .home-left-cats a:last-of-type{
+        margin-bottom: 25px;
+    }
+}
+
+/*end category section*/
+/***********************/
+/*start banner section*/
+.home-banner-sec{
+    height: 600px;
+}
+
+.home-banner-sec .carousel-item{
+    margin-right: 0;
+    background-attachment: fixed;
+}
+
+@media(max-width:767px){
+    .home-banner-sec{
+        height: 300px;
+    }
+}
+/*end banner section*/
+/***********************/
+/*start time section*/
+.time-section > div{
+    background-color: rgba(181, 150, 119, 0.8);
+    padding: 80px 200px;
+}
+
+.time-section{
+    margin-top: 100px;
+    height: 550px;
+    background-size: cover;
+}
+
+.text-white{
+    color: #FFF;
+}
+
+.devider{
+    width: 100px;
+    height: 2px;
+    background-color: #FFF;
+    margin: 12px 0 10px;
+}
+
+@media(max-width:767px){
+    .time-section > div{
+        padding: 30px 15px;
+    }
+}
+/*end time section*/
+/***********************/

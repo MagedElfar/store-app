@@ -1,0 +1,59 @@
+.shop-page h6{
+    border-bottom: 1px solid #F1F1F1;
+    padding-bottom: 10px;
+}
+
+.filtration-attr{
+    margin: 20px 0;
+    border-right: 1px solid #F1F1F1;
+}
+
+.shop-page h6,
+.filtration-attr{
+    width: 90%;
+}
+
+.shop-page .form-check{
+    padding: 2px 0
+}
+
+.shop-page-card{
+    padding-top: 30px;
+}
+
+.shop-page-card .product-card{
+    padding: 0;
+}
+
+.shop-page-card .product-card .card{
+    min-height: 300px;
+}
+
+.fillter-section,
+.shop-page-card{
+    margin-top: 50px !important;
+}
+
+.filtration-attr label{
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.size-filter label{
+    text-transform: uppercase;
+}
+
+.toggle-tax{
+    cursor: pointer;
+    border: 1px solid #000;
+    display: block;
+    font-size: 12px;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shop-page .product-section form .add-to-cart-input { width: 35%;}
+.shop-page .product-section .add-to-car-form > .btn{width: 65%;}

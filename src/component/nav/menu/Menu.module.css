@@ -1,0 +1,15 @@
+.nav-link{
+    color: #4d5959 !important;
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+}
+
+.menu-toggle{
+    border: none !important;
+    padding: 0 !important;
+}
+
+
+.logo{
+    width: 180px ;
+}

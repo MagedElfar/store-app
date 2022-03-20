@@ -1,0 +1,66 @@
+.social-icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #FFF;
+    margin-right: 5px;
+    transition: all 0.3s;
+}
+
+.social-icon a{
+    color: #FFF
+}
+
+.Facebook:hover{
+    color: #1877f2 ;
+    border-color: #1877f2;
+}
+
+.Facebook:hover a{
+    color: #1877f2 ;
+}
+
+.Twitter:hover{
+    color: #1da1f2 ;
+    border-color: #1da1f2;
+}
+
+.Twitter:hover a{
+    color: #1da1f2 ;
+}
+
+.Instagram:hover{
+    color: #c13584 ;
+    border-color: #c13584;
+}
+
+.Instagram:hover a{
+    color: #c13584 ;
+}
+
+.Dribbble:hover{
+    color: #8aba56 ;
+    border-color: #8aba56;
+}
+
+.Dribbble:hover a{
+    color: #8aba56 ;
+}
+
+.Pinterest:hover{
+    color: #e60023 ;
+    border-color: #e60023;
+}
+
+.Pinterest:hover a{
+    color: #e60023 ;
+}
+
+.Youtube:hover{
+    color: #ff0000 ;
+    border-color: #ff0000;
+}
+
+.Youtube:hover a{
+    color: #ff0000 ;
+}

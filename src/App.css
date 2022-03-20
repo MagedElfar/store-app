@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+.bt {
+    cursor: pointer !important;
+    width: 100%;
+    text-align: center;
+}
+
+.custom-link{
+    color: #000 !important;
+}
+
+.custom-link:hover{
+    color: #b59677 !important;
+}
+
+.text-color{
+    color: #4d5959 !important;
+}
+
+.genral-title-style{
+    font-family: Montserrat;
+    letter-spacing: 2px;
+    color: #4d5959;
+    line-height: 1.5;
+}
+
+.sec-padding{
+    padding-top: 100px;
+}
+
+@media(max-width: 767px){
+    .sec-padding{
+        padding-top: 70px;
+    }
+
+    .pro-name-font-size{
+        font-size: 12px;
+        letter-spacing: 1px;
+        padding: 0 5px;
+    }
+
+    .list-group-item{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .list-group-horizontal{
+        justify-content: center;
+    }
+}
+
+/*setting pages*/
+.setting-menu-side{
+    background-color: #3e3e3e;
+    padding: 20px;
+}
+
+.setting-menu-side h2{
+    color: #FFF;
+    font-size: 30px;
+}
+
+.setting-menu-side h2 svg{
+    margin-right: 5px;
+}
+
+.setting-menu-side a,
+.setting-menu-side .btn{
+    color: #FFF !important;
+    padding: 15px 25px;
+}
+
+.setting-side{
+    position: relative;
+    padding: 50px 0;
+    background-color: #F1F1F1;
+}
+
+.setting-side h2{
+    margin-bottom: 50px;
+    padding: 0 15px
+}
+
+@media(max-width:991px){
+    .mobile-pl{
+        display: none;
+    }
+
+    #main-header .navbar-nav{
+        left: 0;
+    position: absolute;
+    z-index: 9999;
+    background-color: #FFF;
+    width: 100%;
+    }
+
+    #main-header .navbar-toggler:focus{
+        box-shadow: none;
+    }
+
+    .seacrch-filter a {
+        max-width: 250px;
+    }
+}
+
+@media(min-width:992px){
+    .mobile-link{
+        display: none;
+    }
+}

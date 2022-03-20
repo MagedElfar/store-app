@@ -1,0 +1,19 @@
+.carousel{
+    height: 600px;
+}
+
+.carousel-inner{
+    height: 100%;
+}
+
+.carousel-indicators button{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius:50%;
+}
+
+@media(max-width: 767px){
+    .carousel{
+        height: 300px;
+    }    
+}

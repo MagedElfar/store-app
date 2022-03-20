@@ -1,0 +1,23 @@
+.aut-form{
+    padding: 50px 0;
+    background-color: #f1f1f1;
+}
+
+.aut-form form,
+.aut-swich,
+.aut-form .alert{
+    max-width: 500px;
+    margin: auto;
+}
+
+.aut-form .alert{
+    margin-bottom: 15px;
+}
+
+.aut-form form button{
+    text-align: right;
+}
+
+.aut-swich{
+    margin-top: 15px;
+}

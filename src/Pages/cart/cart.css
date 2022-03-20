@@ -1,0 +1,19 @@
+.cart-page form{
+    text-align: center;
+}
+
+.cart-page form .btn{
+    display: none;
+}
+
+.cart-page form input{
+    width: 40%;
+    color: #000;
+    height: 50px;
+}
+
+.cart-page .cart-qun{
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
